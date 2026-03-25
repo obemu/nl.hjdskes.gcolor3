@@ -33,7 +33,7 @@ modules:
         commit: 8f5dc8d192f6e31dafe69e35219e3b707bde71ce
         x-checker-data:
           type: git
-          tag-pattern: ^\d+\.\d+\.\d+$
+          tag-pattern: ^([\d.]+)$
 
   - name: gcolor3
     buildsystem: meson
